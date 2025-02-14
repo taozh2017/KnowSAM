@@ -43,7 +43,7 @@ python prediction_ACDC.py
 ```
 
 ## Acknowledgements
-Our code is based on [SSL4MIS]([https://github.com/ycwu1997/SS-Net](https://github.com/HiLab-git/SSL4MIS)).
+Our code is based on [SSL4MIS](https://github.com/HiLab-git/SSL4MIS).
 
 ## Questions
 If you have any questions, welcome contact me at 'taozhou.dreams@gmail.com'
