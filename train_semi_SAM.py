@@ -148,7 +148,7 @@ if __name__ == '__main__':
             os.makedirs(snapshot_path + '/code')
 
         shutil.copyfile("./train_semi_SAM.py", snapshot_path + "/code/train_semi_SAM.py")
-        shutil.copyfile("./trainer_SGDL.py", snapshot_path + "/code/trainer.py")
+        shutil.copyfile("./trainer.py", snapshot_path + "/code/trainer.py")
 
         logging.basicConfig(filename=snapshot_path+"/log.txt", level=logging.INFO,
                             format='[%(asctime)s.%(msecs)03d] %(message)s', datefmt='%H:%M:%S')
