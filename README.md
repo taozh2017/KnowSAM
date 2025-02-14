@@ -1,7 +1,5 @@
 # KnowSAM
-
-We will release the code for "Learnable Prompting SAM-induced Knowledge Distillation for Semi-supervised Medical Image Segmentation" soon.
-
+Official code for "[Learnable Prompting SAM-induced Knowledge Distillation for Semi-supervised Medical Image Segmentation](https://arxiv.org/pdf/2412.13742)"
 
 ## Installation
 
