@@ -17,7 +17,7 @@ We provide a reference sample dataset (SampleData.rar) that allows users to quic
 ```bash
 unrar x SampleData.rar
 ```
-For ACDC dataset, you can download it from the [ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)
+For ACDC dataset, you can download it from the [ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC), and place it directly in the `SampleData` folder.
 
 
 ## Training
