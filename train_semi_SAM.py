@@ -122,7 +122,7 @@ def train(args, snapshot_path):
             volume_batch, label_batch = sampled_batch['image'].cuda(), sampled_batch['label'].cuda()
             trainer.train(volume_batch, label_batch, iter_num)
             iter_num = iter_num + 1
-            if iter_num > 0 and iter_num % 2 == 0:
+            if iter_num > 0 and iter_num % 200 == 0:
                 if "ACDC" not in args.dataset:
                     trainer.val(val_loader, snapshot_path, iter_num)
                 else:
