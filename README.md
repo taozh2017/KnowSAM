@@ -17,6 +17,8 @@ We provide a reference sample dataset (SampleData.rar) that allows users to quic
 ```bash
 unrar x SampleData.rar
 ```
+For ACDC dataset, you can download it from the [ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)
+
 
 ## Training
 To train the model on a dataset, execute:
@@ -39,3 +41,9 @@ For ACDC dataset inference:
 ```bash
 python prediction_ACDC.py
 ```
+
+## Acknowledgements
+Our code is based on [SSL4MIS]([https://github.com/ycwu1997/SS-Net](https://github.com/HiLab-git/SSL4MIS)).
+
+## Questions
+If you have any questions, welcome contact me at 'taozhou.dreams@gmail.com'
